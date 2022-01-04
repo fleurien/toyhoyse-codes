@@ -1,0 +1,75 @@
+:root{
+    --yellow: #fedf84;
+    --pink: #e66ca5;
+    --green: #7bc3c0;
+    --blue: #9bd0e0;
+    --light: #fff;
+    --dark: #2d2822;
+}
+
+.content-main{
+    background-image: url(https://i.ibb.co/NCv5cTw/brandi-redd-a-JTi-W00qqt-I-unsplash.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+  background:none;
+}
+
+.card-header{
+  color:var(--dark);
+  text-align:center;
+  font-size:16pt;
+  background:none;
+  border:none;
+}
+
+p{
+  color:var(--dark);
+  font-size:12pt;
+}
+
+.container a{
+  color:var(--dark);
+}
+
+.container a:hover{
+  color:var(--pink);
+}
+
+ul{
+  background:none;
+  color:var(--dark);
+}
+
+ol{
+  background:none;
+  color:var(--dark);
+}
+
+.list-group-item{
+  background:none;
+  border:none;
+  color:var(--dark);
+}
+
+h5{
+  color:var(--dark);
+}
+
+h2{
+  text-align:center;
+}
+
+.fr-view table th{
+  background:var(--yellow);
+  color:var(--dark);
+}
+
+table{
+    background:var(--yellow);
+    color:var(--dark);
+  }
